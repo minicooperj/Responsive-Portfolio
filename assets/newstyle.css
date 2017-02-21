@@ -1,3 +1,31 @@
+/*@media screen and (max-width: 640px) {
+
+   .Header {
+      width: 100%;
+      color: #fff;
+      background: #fff;
+      border-bottom: 2px solid #ccc;
+      height:90px;
+      padding-bottom: 90px;
+      float:left;
+   }
+
+   #headername {
+      width: 640px;
+      height: 90px;
+      float: left;
+      font-family: 'Georgia', Times, Times New Roman, serif;
+      text-align: center;
+      line-height: 90px;
+      color: #fff;
+      font-weight: 700;
+      font-size: 30px;
+      text-decoration: none;
+      background: red;
+   }
+
+ };
+
 
 body {
    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -121,89 +149,14 @@ nav {
  
  
  /*general*/
+   /*line-height: 18px;*/*/
+   /*border-left: 1px solid #efefef;*/
+ /*}*/
  
- .container {
-   clear: both;
-   margin: 0 auto;
-   width: 100%;
-   max-width: 960px;
+ /*nav a:first-child {*/
+   /*border-left: 0 none;*/
  }
- 
- h1,
- h2,
- h3,
- p {
-   margin-bottom: 20px;
- }
- 
- p:last-child {
-   margin-bottom: 0;
- }
- 
- h1,
- h2,
- h3 {
-   font-family: 'Georgia', Times, Times New Roman, serif;
-   color: #4aaaa5;
-   font-weight: 700;
- }
- 
- h1 {
-   padding-bottom: 20px;
-   font-size: 30px;
-   line-height: 49px;
-   border-bottom: 3px solid #ddd;
- }
- 
- h2,
- h3 {
-   font-size: 22px;
- }
- 
- 
- /*header*/
- 
- #masthead {
-   position: fixed;
-   z-index: 99;
-   margin: 0 0 30px;
-   overflow: auto;
-   width: 100%;
-   color: #fff;
-   background: #fff;
-   border-bottom: 2px solid #ccc;
- }
- 
- #logo {
-   width: 250px;
-   height: 90px;
-   float: left;
-   font-family: 'Georgia', Times, Times New Roman, serif;
-   text-align: center;
-   line-height: 90px;
-   color: #fff;
-   font-weight: 700;
-   font-size: 30px;
-   text-decoration: none;
-   background: #4aaaa5;
- }
- 
- 
- 
- nav a {
-   display: inline-block;
-   margin-left: 15px;
-   padding-left: 15px;
-   color: #999;
-   text-decoration: none;
-   line-height: 18px;
-   border-left: 1px solid #efefef;
- }
- 
- nav a:first-child {
-   border-left: 0 none;
- }
- 
+ */
  
  /*footer*/
  
@@ -212,7 +165,7 @@ nav {
  
  /*sidebar*/
  
- .sidebar {
+/* .sidebar {
    padding: 30px;
    width: 100%;
    max-width: 270px;
@@ -241,11 +194,11 @@ nav {
    margin-right: 0;
  }
  
- 
+*/ 
  /*main*/
  
  /*#main-container {*/
-   padding-top: 130px;
+/*   padding-top: 130px;
  }
  
  .main-section {
@@ -259,9 +212,9 @@ nav {
  }
  
  
- /*portfolio page*/
+*/ /*portfolio page*/
  
- .work {
+/* .work {
    position: relative;
    width: 274px;
    overflow: auto;
@@ -302,9 +255,9 @@ nav {
  }
  
  
- /*contact page*/
+*/ /*contact page*/
  
- #contact-form ul {
+/* #contact-form ul {
    margin-bottom: 20px;
  }
  
@@ -341,32 +294,6 @@ nav {
    cursor: pointer;
    background: #4aaaa5;
    border: 0 none;
- };
-
- @media screen and (max-width: 640px) {
-
-   .Header {
-      width: 100%;
-      color: #fff;
-      background: #fff;
-      border-bottom: 2px solid #ccc;
-      height:90px;
-      padding-bottom: 90px;
-      float:left;
-   }
-
-   #headername {
-      width: 640px;
-      height: 90px;
-      float: left;
-      font-family: 'Georgia', Times, Times New Roman, serif;
-      text-align: center;
-      line-height: 90px;
-      color: #fff;
-      font-weight: 700;
-      font-size: 30px;
-      text-decoration: none;
-      background: red;
-   }
-
- };
+*/ };
+*/
+ 
